@@ -1,0 +1,22 @@
+{
+  "name": "exerciseur",
+  "version": "2.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formateurdw01/exerciser-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/formateurdw01/exerciser-js/issues"
+  },
+  "homepage": "https://github.com/formateurdw01/exerciser-js#readme",
+  "dependencies": {
+    "javascript-obfuscator": "^4.0.0"
+  }
+}
