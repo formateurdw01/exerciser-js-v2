@@ -1,18 +1,21 @@
+const fs = require('fs');
 class Exo {
-  constructor( description ) {
+  constructor( description = {} ) {
     Object.assign(this, {
       id: 0,
       titre: "Exercice",
+      consigne: "Consigne",
       arguments: {},
-      enonce: "Enoncé",
       avant: "",
       solution: "",
       apres: "",
-      retour: "",
-    })
+    });
 
     Object.assign(this,description);
-    console.log( this );
+  }
+
+  importFichierJSON(fichier) {
+    Object.assign(this,JSON.parse(fs.readFileSync(fichier,'utf-8')));
   }
 }
 module.exports = Exo;
