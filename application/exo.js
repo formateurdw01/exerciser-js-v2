@@ -17,5 +17,9 @@ class Exo {
   importFichierJSON(fichier) {
     Object.assign(this,JSON.parse(fs.readFileSync(fichier,'utf-8')));
   }
+  exportFichierJSON(fichier) {
+    fs.writeFileSync(fichier,JSON.stringify(this));
+  }
+  
 }
 module.exports = Exo;

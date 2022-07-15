@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/formateurdw01/exerciser-js/issues"
   },
-  "homepage": "https://github.com/formateurdw01/exerciser-js#readme",
-  "dependencies": {
-    "javascript-obfuscator": "^4.0.0"
-  }
+  "homepage": "https://github.com/formateurdw01/exerciser-js#readme"
 }
